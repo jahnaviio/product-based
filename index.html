@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MPB Store | Mobile Product Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">MPB<span>Store</span></h2>
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#products">Mobiles</a></li>
+
+        <li class="brand-menu">
+          <a href="#" onclick="toggleBrands(event)">Brands</a>
+
+          <div class="brand-dropdown" id="brandDropdown">
+            <p>Apple</p>
+            <p>Samsung</p>
+            <p>OnePlus</p>
+            <p>Vivo</p>
+            <p>Oppo</p>
+            <p>Realme</p>
+            <p>Redmi</p>
+            <p>Google Pixel</p>
+            <p>Nokia</p>
+            <p>Motorola</p>
+            <p>Nothing</p>
+            <p>iQOO</p>
+          </div>
+        </li>
+
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <span class="tag">Premium Mobile Collection</span>
+
+        <h1>Choose Your Dream Smartphone</h1>
+
+        <p>
+          Explore top mobile brands with stylish design,
+          best prices, and detailed specifications.
+        </p>
+
+        <a href="#products" class="btn">Shop Now</a>
+      </div>
+    </section>
+  </header>
+
+  <section class="products" id="products">
+    <h2>Latest Smartphones</h2>
+
+    <p class="section-subtitle">
+      Click “View Details” to see full specifications
+    </p>
+
+    <div class="product-container">
+
+      <!-- PRODUCT 1 -->
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=500&q=80">
+
+        <h3>iPhone 15 Pro</h3>
+
+        <p class="brand">Apple</p>
+
+        <p class="price">₹1,34,900</p>
+
+        <button onclick="toggleDetails(this)">View Details</button>
+
+        <div class="details">
+          <p><b>Display:</b> 6.1-inch Super Retina XDR</p>
+          <p><b>Processor:</b> A17 Pro Chip</p>
+          <p><b>Camera:</b> 48MP Triple Camera</p>
+          <p><b>Storage:</b> 256GB</p>
+          <p><b>Battery:</b> All-day battery life</p>
+        </div>
+      </div>
+
+      <!-- PRODUCT 2 -->
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80">
+
+        <h3>Galaxy S24</h3>
+
+        <p class="brand">Samsung</p>
+
+        <p class="price">₹79,999</p>
+
+        <button onclick="toggleDetails(this)">View Details</button>
+
+        <div class="details">
+          <p><b>Display:</b> 6.2-inch AMOLED</p>
+          <p><b>Processor:</b> Exynos 2400</p>
+          <p><b>Camera:</b> 50MP Camera</p>
+          <p><b>Storage:</b> 256GB</p>
+          <p><b>Battery:</b> 4000mAh</p>
+        </div>
+      </div>
+
+      <!-- PRODUCT 3 -->
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80">
+
+        <h3>OnePlus 12</h3>
+
+        <p class="brand">OnePlus</p>
+
+        <p class="price">₹64,999</p>
+
+        <button onclick="toggleDetails(this)">View Details</button>
+
+        <div class="details">
+          <p><b>Display:</b> 6.82-inch QHD+</p>
+          <p><b>Processor:</b> Snapdragon 8 Gen 3</p>
+          <p><b>Camera:</b> 50MP Hasselblad</p>
+          <p><b>Storage:</b> 256GB</p>
+          <p><b>Battery:</b> 5400mAh</p>
+        </div>
+      </div>
+
+      <!-- PRODUCT 4 -->
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=500&q=80">
+
+        <h3>Vivo V30 Pro</h3>
+
+        <p class="brand">Vivo</p>
+
+        <p class="price">₹41,999</p>
+
+        <button onclick="toggleDetails(this)">View Details</button>
+
+        <div class="details">
+          <p><b>Display:</b> 6.78-inch AMOLED</p>
+          <p><b>Processor:</b> Dimensity 8200</p>
+          <p><b>Camera:</b> 50MP Portrait Camera</p>
+          <p><b>Storage:</b> 256GB</p>
+          <p><b>Battery:</b> 5000mAh</p>
+        </div>
+      </div>
+
+      <!-- PRODUCT 5 -->
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?auto=format&fit=crop&w=500&q=80">
+
+        <h3>Oppo Reno 11</h3>
+
+        <p class="brand">Oppo</p>
+
+        <p class="price">₹29,999</p>
+
+        <button onclick="toggleDetails(this)">View Details</button>
+
+        <div class="details">
+          <p><b>Display:</b> 6.7-inch AMOLED</p>
+          <p><b>Processor:</b> MediaTek Dimensity</p>
+          <p><b>Camera:</b> 50MP Main Camera</p>
+          <p><b>Storage:</b> 256GB</p>
+          <p><b>Battery:</b> 5000mAh</p>
+        </div>
+      </div>
+
+      <!-- PRODUCT 6 -->
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=500&q=80">
+
+        <h3>Realme 12 Pro</h3>
+
+        <p class="brand">Realme</p>
+
+        <p class="price">₹25,999</p>
+
+        <button onclick="toggleDetails(this)">View Details</button>
+
+        <div class="details">
+          <p><b>Display:</b> 6.7-inch Curved AMOLED</p>
+          <p><b>Processor:</b> Snapdragon 6 Gen 1</p>
+          <p><b>Camera:</b> 50MP Sony Camera</p>
+          <p><b>Storage:</b> 128GB</p>
+          <p><b>Battery:</b> 5000mAh</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+
+    <div class="footer-top">
+      <p>
+        More ways to shop:
+        <a href="#">Find an MPB Store</a>
+        or
+        <a href="#">other retailer</a>
+        near you.
+        Or call
+        <a href="tel:+919111111191">+91 9111111191</a>.
+        Email:
+        <a href="mailto:mpbstore@gmail.com">mpbstore@gmail.com</a>
+      </p>
+    </div>
+
+    <div class="footer-line"></div>
+
+    <div class="footer-bottom">
+
+      <p>
+        Copyright © 2026 MPB Store.
+        All rights reserved.
+      </p>
+
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Sales Policy</a>
+        <a href="#">Legal</a>
+        <a href="#">Site Map</a>
+      </div>
+
+      <p>India</p>
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
